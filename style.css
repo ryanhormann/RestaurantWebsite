@@ -6,18 +6,24 @@
 
 body {
     font-family: monospace;
+    width: 96%;
+    margin: 10px auto;
 }
 
 h1 {
-
+    font-size: 15vw;
+    text-align: center;
 }
 
 h2 {
-
+    font-size: 12vw;
+    text-align: center;
 }
 
 header {
-
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
 }
 
 nav {
@@ -25,45 +31,71 @@ nav {
 }
 
 ul {
-
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
 
 }
 
-a {
-
+.nav-button {
+    text-decoration: none;
+    color: white;
+    font-size: 9vw;
+    text-align: center;
+    display: block;
+    margin: 5px 0px;
+    background-color: #555555;
+    padding: 5px 0px;
 }
 
-a:hover {
+.nav-button:hover {
+    background-color: #474747;
+}
 
+.nav-button:active {
+    background-color: #3b3b3b;
 }
 
 main {
-
+    display: flex;
+    flex-direction: column;
 }
 
 section {
-
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
-
+    font-size: 10vw;
+    text-align: center;
+    background-color: lightgray;
 }
 
 .card {
-
+    margin: 20px 0px;
 }
 
 figure {
+    display: flex;
+    justify-content: center;
 
 }
 
 img {
-
+    width: 50%;
+    border: 1px solid black;
 }
 
-.food-name {
-    
+.food-name, .food-price {
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer {
+    font-size: 5vw;
 }
